@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icon/favicon-16x16.png"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Habits</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="logo habits" />
+
+      <button>
+        <img src="./assets/plus.svg" alt="icone sinal de mais" />
+
+        <div>Registrar o meu dia</div>
+      </button>
+    </header>
+
+    <form>
+      <div class="habits">
+        <div class="habit" data-name="meditation">🧘🏽‍♂️</div>
+        <div class="habit" data-name="reading">📚</div>
+        <div class="habit" data-name="vitamins">🍎</div>
+        <div class="habit" data-name="toStudy">🤓</div>
+        <div class="habit" data-name="run">🏃🏽</div>
+        <div class="habit" data-name="gym">🏋🏽</div>
+        <div class="habit" data-name="sleep">💤</div>
+      </div>
+
+      <div class="days"></div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
