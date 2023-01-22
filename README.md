@@ -1,6 +1,6 @@
 <h1 align="center"> Routine setup </h1>
 
-<p align="center"> Uma maneira pratica de visualizar as metas da rotina. <br/>
+<p align="center"> Uma maneira pratica de visualizar as metas do dia a dia. <br/>
 </p>
 
 <p align="center">
@@ -27,13 +27,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+Feito para ter um controle maior e simples dos habitos.
 
 - [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
 
 
 
-## Licença
+## :wave: Licença
 
 Esse projeto está sob a licença MIT.
 
